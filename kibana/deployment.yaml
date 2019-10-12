@@ -20,7 +20,7 @@ spec:
       containers:
       - name: kibana
         imagePullPolicy: IfNotPresent
-        image: docker.elastic.co/kibana/kibana:6.2.3
+        image: docker.elastic.co/kibana/kibana:7.4.0
         resources:
           requests:
             memory: 2Gi
